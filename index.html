@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Phone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <button id="toggle-rotation">Pause Rotation</button>
+        <input type="color" id="color-picker" value="#000000" title="Pick Phone Color">
+    </div>
+    <div class="phone-container">
+        <!-- Phone Front -->
+<!-- Phone Front -->
+<div class="phone front">
+    <div class="screen">
+        <div class="notch"></div>
+        <div class="status-bar">
+            <span class="battery">78%</span>
+        </div>
+       <div class="display-content">Samsung S23</div> 
+        <div class="display-content">
+            <div class="date" id="date"></div> <!-- Date -->
+            <div class="watch">
+                <span id="time"></span> <!-- Time -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Phone Back -->
+        <div class="phone back">
+            <div class="camera camera1"></div>
+            <div class="camera camera2"></div>
+            <div class="camera camera3"></div>
+            <div class="logo">Samsung</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
